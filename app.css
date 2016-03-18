@@ -91,6 +91,11 @@ body{
 
   justify-content: center;
 }
+  @media (max-width:600px){
+    #projects-view{
+      padding-bottom:35%;
+      justify-content: center;
+    }
 .card-title{
   padding-top:15px !important;
   padding-bottom:5px !important;
@@ -114,8 +119,13 @@ body{
   height:auto;
 }
 #about-content{
-  padding:2%;
+  padding:2% 2% 2% 2%;
 }
+  @media (max-width:600px){
+    #about-content{
+      padding:2% 2% 35% 2%;
+    }
+  }
 #about-view{
   justify-content: center;
 }
@@ -155,7 +165,10 @@ body{
   justify-content: center;
 }
 .space{
-  margin:2em;
+   margin:2em;
+ }
+.space .more{
+  margin:6em;
 }
 .about-me-icons{
   font-size:90px !important;
