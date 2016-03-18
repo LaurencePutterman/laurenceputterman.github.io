@@ -12,7 +12,7 @@
         "path": "img/vectorscreen1.jpg"
       },
       {
-        "name": "Add a new dealer",
+        "name": "Panels",
         "path": "img/vectorscreen2.jpg"
       },
       {
@@ -21,7 +21,7 @@
       }
     ],
     "ShortDesc": "Contributed to an administration portal for Vector Security while working at Savvior Technology Solutions.",
-    "LongDesc": "<p>Contributed to the front-end design and Laravel development of the administrator portal for Vector Security, allowing managers to oversee dealers’ account details. Implemented features that interact with a MySQL database through Doctrine. Coded routines that parse Excel documents to update database entries.</p><p> Through this project, I gained my first exposure to Laravel and to working on a large-scale project. I developed stronger PHP, HTML/CSS and database knowledge.</p>"
+    "LongDesc": "<p>Contributed to the front-end design and Laravel development of the administrator portal for Vector&nbspSecurity, allowing managers to oversee dealers’ account details. Implemented features that interact with a MySQL database through Doctrine. Coded routines that parse Excel documents to update database entries.</p><p> Through this project, I gained my first exposure to Laravel and to working on a large-scale project. I developed stronger PHP, HTML/CSS and database knowledge.</p>"
   },
   {
     "ID": "2",
@@ -45,7 +45,7 @@
       }
     ],
     "ShortDesc": "Created an Ionic mobile app for Calgon-Carbon during my time as a co-op at Savvior Technology Solutions. ",
-    "LongDesc": "Lead the design and production of the mobile app, Calgon-Carbon, during my Savvior Co-op. With little to no prior experience, I taught myself Angular and Ionic Framework using online resources. Created the back-end API for the app with Laravel. Enjoyed the novel experience of developing for mobile devices and creating APIs from scratch. Tackled the challenges of designing front-end layouts in response to various UI constraints."
+    "LongDesc": "Lead the design and production of the mobile app, Calgon&#x2011;Carbon, during my Savvior Co-op. With little to no prior experience, I taught myself Angular and Ionic Framework using online resources. Created the back-end API for the app with Laravel. Enjoyed the novel experience of developing for mobile devices and creating APIs from scratch. Tackled the challenges of designing front-end layouts in response to various UI constraints."
   },
   {
     "ID": "3",
@@ -57,7 +57,7 @@
       }
     ],
     "ShortDesc": "Proud pixel pusher and modal lover. Built from scratch with Angular, Angular Material, HTML & CSS.",
-    "LongDesc": "Developed this website using Angular and Angular Material within a week. Chose to have a minimalistic and clean layout to display projects efficiently, minimizing the need to constantly switch pages. I'm a big fan of Material Design and I really like using cards to represent information. To generate the cards, I process a JSON file which contains all the information relevant to each card.<p> Collaborated with a communication design student, <a href='http://www.tiffanyjiang.com/'>Tiffany Jiang</a>, to get feedback and critique on the visual and user experience design.</p>"
+    "LongDesc": "Developed this website using Angular and Angular Material within a week. Chose to have a minimalistic and clean layout to display projects efficiently, minimizing the need to constantly switch pages. I'm a big fan of Material Design and I really like using cards to represent information. To generate the cards, I process a JSON file which contains all the information relevant to each card.<p> Collaborated with a communication design student, <a href='http://www.tiffanyjiang.com/'>Tiffany&nbspJiang</a>, to get feedback and critique on the visual and user experience design.</p>"
   },
   {
     "ID": "4",
@@ -79,7 +79,7 @@
         "path": "img/shoein_picture2.png"
       }
     ],
-    "LongDesc": "ShoeIn is the beginning of a platform which enables nonprofit organization donors to see the impact of their donation, while simultaneously measuring the efficacy of the organizations which receive their donations and thereby holding them to a higher degree of accountability. The majority of the front-end web development was done collaboratively between myself and <a href='http://www.tiffanyjiang.com/'>Tiffany Jiang</a>, the designer on the team, starting with a Bootstrap HTML/CSS template. We worked together to translate her mockups and wireframe sketches into the website design.<br><br><a href='https://vimeo.com/136223195'>Video</a>",
+    "LongDesc": "ShoeIn is the beginning of a platform which enables nonprofit organization donors to see the impact of their donation, while simultaneously measuring the efficacy of the organizations which receive their donations and thereby holding them to a higher degree of accountability. The majority of the front-end web development was done collaboratively between myself and <a href='http://www.tiffanyjiang.com/'>Tiffany Jiang</a>, the designer on the team, starting with a Bootstrap HTML/CSS template. We worked together to translate her mockups and wireframe sketches into the website design.<br><a href='https://vimeo.com/136223195'>Video</a>",
     "ShortDesc": "ShoeIn is the beginning of a platform which enables nonprofit organization donors to see the impact of their donation first-hand.",
     "Title": "ShoeIn: HackGCT Grand Prize Winner"
   },

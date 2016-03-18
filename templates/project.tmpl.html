@@ -9,7 +9,7 @@
             </div>
         </md-toolbar>
         <md-dialog-content>
-            <md-content layout-padding layout-gt-md="row" class="modal-content"  layout-md="column" layout-sm="column" layout-xs="column" layout-align-sm="center center" layout-align-md="center center" layout-align-lg="center center" layout-align-xs="center center">
+            <md-content layout-padding layout-gt-md="row" class="modal-content"  layout-md="column" layout-sm="column" layout-xs="column" layout-align-sm="center " layout-align-md="center " layout-align-lg="center " layout-align-xs="center ">
                 <div class="md-whiteframe-2dp">
                     <dm-carrousel ng-show="lengthOfImg() > 1" image-data="project.ImgURLS"></dm-carrousel>
                     <img class="modal-internal-img" ng-hide="lengthOfImg() > 1" ng-src="{{project.ImgURLS[0].path}}">
@@ -17,7 +17,6 @@
                 <div layout="column" class="modal-text">
                     <h1>{{project.Title}}</h1>
                     <span class="modal-project-description" ng-bind-html="project.LongDesc"></span>
-
                 </div>
             </md-content>
         </md-dialog-content>

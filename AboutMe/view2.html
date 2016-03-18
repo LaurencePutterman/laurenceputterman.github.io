@@ -1,10 +1,19 @@
 <md-content  class="app-view" layout-padding>
   <div class='md-padding' layout="column" id="about-view">
     <div layout="row" layout-md="column" layout-sm="column" layout-xs="column" layout-align-sm="center center" layout-align-md="center center" layout-align-xs="center center" id="headshot-and-text" layout-wrap>
-      <img id="headshot" ng-src="img/headshot.jpg" >
-      <div class="space"></div>
+        <img id="headshot" ng-src="img/headshot.jpg" >
+        <div class="space"></div>
       <md-whiteframe class="md-whiteframe-1dp" flex-gt-md="30"  layout id="about-me">
-        <span id="about-me-text">I'm a computer science student graduating in 2017. I love to make stuff, whether it's hacking an app or producing music. Towards that end, I try to constantly stay learning. When I'm not on the computer, you can find me practicing cello, enjoying nature, or thinking about being on the computer.</span>
+        <div layout="column" layout-wrap>
+          <h1 id="hello">Hi I'm Laurence!</h1>
+          <span id="about-me-text">I'm a computer science student graduating in 2017. I love to make stuff, whether it's hacking an app or producing music. Towards that end, I try to constantly stay learning. When I'm not on the computer, you can find me practicing cello, enjoying nature, or thinking about being on the computer.</span>
+          <div class="social-icons-container" id="in-header-icons" layout="row">
+            <a href="mailto:mlputterman@gmail.com"><i class="mdi mdi-email social-icon"></i></a>
+            <a href="https://www.linkedin.com/in/laurenceputterman"><i class="mdi mdi-linkedin social-icon"></i></a>
+            <a href="https://github.com/LaurencePutterman"><i class="mdi mdi-github-circle social-icon"></i></a>
+            <a href="http://soundcloud.com/maxlaurence"><i class="mdi mdi-soundcloud social-icon"></i></a>
+          </div>
+        </div>
       </md-whiteframe>
     </div>
     <div id="about-content" layout-wrap>
@@ -68,12 +77,6 @@
         </md-whiteframe>
       </div>
       <div class="space"></div>
-      <div class="social-icons-container" layout="row">
-        <a href="mailto:mlputterman@gmail.com"><i class="mdi mdi-email social-icon"></i></a>
-        <a href="https://www.linkedin.com/in/laurenceputterman"><i class="mdi mdi-linkedin social-icon"></i></a>
-        <a href="https://github.com/LaurencePutterman"><i class="mdi mdi-github-circle social-icon"></i></a>
-        <a href="http://soundcloud.com/maxlaurence"><i class="mdi mdi-soundcloud social-icon"></i></a>
-      </div>
     </div>
   </div>
 </md-content>

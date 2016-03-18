@@ -43,7 +43,7 @@ controller('AppCtrl', ['$scope','$location',function($scope,$location) {
                 location.href = "#/Work";
                 break;
             case 2:
-                location.href = "https://www.dropbox.com/s/w09862g1y5n3mhn/Laurence-Putterman-Resume.pdf?dl=0";
+                location.href = "downloads/Laurence-Putterman-Resume.pdf";
                 break;
         }
     });
