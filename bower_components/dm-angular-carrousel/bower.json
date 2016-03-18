@@ -1,0 +1,31 @@
+{
+  "name": "dm-angular-carrousel",
+  "version": "0.1.0",
+  "main": [
+  	"./dist/js/DmCarrousel.js",
+  	"./dist/css/style.css",
+  	"./dist/sass/style.scss"
+  ],
+  "homepage": "https://github.com/maartenvanbenthem/angular-carrousel",
+  "authors": [
+    "Maarten van Benthem <maarten@damsko-media.nl>"
+  ],
+  "description": "A directive to create an image carrousel",
+  "license": "MIT",
+  "ignore": [
+    ".gitignore",
+    "bower_components",
+    "bower.json",
+    "config.rb",
+    "dev",
+    "gulpfile.js",
+    "karma.conf.js",
+    "node_modules",
+    "package.json",
+    "tests"
+    
+  ],
+  "dependencies": {
+    "angular": "1.3.7"
+  }
+}

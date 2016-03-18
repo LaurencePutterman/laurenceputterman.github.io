@@ -1,0 +1,18 @@
+<div  class="app-view" >
+    <div class='md-padding' layout="row" layout-wrap id="projects-view">
+        <md-card ng-click="openInfo(project, $event)" class="proj-card" ng-repeat="project in projects" >
+            <img ng-src="{{project.ImgURLS[0].path}}" class="md-card-image card-img" alt="{{project.Title}}">
+            <md-card-title class="card-title">
+                <md-card-title-text class="card-title2">
+                    <span class="md-headline">{{project.Title}}</span>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-content class="card-content">
+                {{project.ShortDesc}}
+            </md-card-content>
+        </md-card>
+    </div>
+</div>
+
+
+

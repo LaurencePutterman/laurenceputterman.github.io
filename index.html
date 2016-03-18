@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="personal-site" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="personal-site" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="personal-site" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="personal-site" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My AngularJS App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+  <link rel="stylesheet" href="app.css"> <!-- custom css -->
+  <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css"> <!--Angular Material-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--Material icons -->
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" /> <!-- Open Sans font -->
+  <link rel="stylesheet" href="bower_components/dm-angular-carrousel/dist/stylesheets/style.css" /> <!--dm carousel -->
+
+
+
+</head>
+<body layout="row" ng-cloak ng-controller="AppCtrl">
+    <!--<md-sidenav
+            class="md-sidenav-left"
+            md-component-id="left"
+            md-is-locked-open="$mdMedia('gt-md')"
+            md-disable-backdrop
+            md-whiteframe="4"
+            id="side-menu">
+      <md-toolbar>
+        <div class="md-toolbar-tools">
+          <h1 id="name">Laurence Putterman</h1>
+        </div>
+      </md-toolbar>
+      <md-button class="menu-btn" href="#/AboutMe"  ng-click="title = 'About Me'">About Me</md-button>
+      <md-button class="menu-btn" href="#/Projects" ng-click="title = 'Projects'">Projects</md-button>
+      <md-button class="menu-btn" href="#/Contact" ng-click="title = 'Contact'">Contact</md-button>
+    </md-sidenav> -->
+    <md-content layout="column" layout-fill >
+      <md-toolbar md-scroll-shrink class=" md-whiteframe-4dp ">
+        <h2 id="name">Laurence Putterman</h2>
+        <md-tabs md-selected="selectedIndex" md-stretch-tabs="always" >
+          <md-tab class="menu-tab" label="About"></md-tab>
+          <md-tab class="menu-tab" label="Work"></md-tab>
+          <md-tab class="menu-tab" label="Resume"></md-tab>
+        </md-tabs>
+      </md-toolbar>
+      <div ng-view class="app-view"></div>
+    </md-content>
+
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
+
+  <!-- Angular Material Library -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
+  <script src="app.js"></script>
+    <script src="services/services.js"></script>
+  <script src="Projects/view1.js"></script>
+  <script src="AboutMe/view2.js"></script>
+    <script src="Contact/Contact.js"></script>
+  <script src="components/version/version.js"></script>
+  <script src="components/version/version-directive.js"></script>
+  <script src="components/version/interpolate-filter.js"></script>
+  <script src="bower_components/dm-angular-carrousel/dist/js/DmCarrousel.js"></script>
+</body>
+</html>

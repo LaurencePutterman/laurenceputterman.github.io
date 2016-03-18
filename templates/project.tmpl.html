@@ -1,0 +1,23 @@
+<md-dialog aria-label="{{project.Title}}" >
+        <md-toolbar>
+            <div class="md-toolbar-tools">
+                <h2>{{project.Title}}</h2>
+                <span flex></span>
+                <i class="md-icon close-modal" ng-click="cancel()">
+                    <md-icon md-font-set="material-icons" aria-label="Close dialog"> close </md-icon>
+                </i>
+            </div>
+        </md-toolbar>
+        <md-dialog-content>
+            <md-content layout-padding layout-gt-md="row" class="modal-content"  layout-md="column" layout-sm="column" layout-xs="column" layout-align-sm="center center" layout-align-md="center center" layout-align-lg="center center" layout-align-xs="center center">
+                <div class="md-whiteframe-2dp">
+                    <dm-carrousel ng-show="lengthOfImg() > 1" image-data="project.ImgURLS"></dm-carrousel>
+                    <img class="modal-internal-img" ng-hide="lengthOfImg() > 1" ng-src="{{project.ImgURLS[0].path}}">
+                </div>
+                <div layout="column" class="modal-text">
+                    <h1>{{project.Title}}</h1>
+                    <span class="modal-project-description">{{project.LongDesc}}</span>
+                </div>
+            </md-content>
+        </md-dialog-content>
+</md-dialog>

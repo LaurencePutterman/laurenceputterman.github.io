@@ -1,0 +1,45 @@
+<div layout="column">
+    <md-card flex>
+        <md-card-title>
+        <md-card-title-text>
+            <span class="md-headline">My Information</span>
+        </md-card-title-text>
+        </md-card-title>
+        <md-content layout="row" layout-padding>
+            <span>Email: </span><span>mlputterman@gmail.com</span>
+        </md-content>
+    </md-card>
+    <md-card flex>
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline">Contact Form</span>
+            </md-card-title-text>
+        </md-card-title>
+        <md-content md-theme="docs-dark" layout-gt-sm="row" layout-padding>
+            <div>
+                <md-input-container>
+                    <label>Name</label>
+                    <input ng-model="user.name">
+                </md-input-container>
+                <md-input-container>
+                    <label>Email</label>
+                    <input ng-model="user.email" type="email">
+                </md-input-container>
+            </div>
+        </md-content>
+        <md-content layout-padding>
+            <div>
+                <form name="userForm">
+                    <md-input-container class="md-block">
+                        <label>Message</label>
+                        <textarea ng-model="user.message" rows="5" md-select-on-focus></textarea>
+                    </md-input-container>
+                </form>
+            </div>
+        </md-content>
+        <md-card-actions layout="row" layout-align="end center">
+            <md-button ng-click="submit(user)">Submit</md-button>
+        </md-card-actions>
+    </md-card>
+</div>
+

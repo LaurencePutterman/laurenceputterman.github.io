@@ -1,0 +1,78 @@
+[
+  {
+    "ID": "1",
+    "Title": "Vector Security: Admin Portal",
+    "ImgURLS": [
+      {
+        "name": "Vector Security: Admin Portal",
+        "path": "img/vectorthumb.png"
+      }
+    ],
+    "ShortDesc": "Contributed to an administration portal for Vector Security while working at Savvior Technology Solutions.",
+    "LongDesc": "I assisted with an administrator portal being created with Laravel for Vector Security. I designed pages and implemented features that required interaction with a MySQL database through Doctrine, as well as parsing Excel documents. This was my first time working on a large scale project and my first real experience with Laravel. Over the course of this project, I became more familiar with coding with PHP, interacting with databases, and working with HTML and CSS."
+  },
+  {
+    "ID": "2",
+    "Title": "Calgon-Carbon: Mobile App",
+    "ImgURLS": [
+      {
+        "name": "Calgon-Carbon: Mobile App",
+        "path": "img/calgonthumb.png"
+      }
+    ],
+    "ShortDesc": "Created an Ionic mobile app for Calgon-Carbon during my time as a co-op at Savvior Technology Solutions. ",
+    "LongDesc": "I was tasked with creating an Ionic mobile app for Calgon-Carbon while working for Savvior. This was my first time using Ionic and among my first times using Angular. I also created the back-end API for this app with Laravel. Over the course of this project, I became more familiar with JavaScript and Angular, as well as Laravel. I enjoyed the challenge of working with phone-sized screens and creating an API, both of which were things I had never done before. "
+  },
+  {
+    "ID": "3",
+    "Title": "Personal Website",
+    "ImgURLS": [
+      {
+        "name": "Personal Website",
+        "path": "img/personalsite.png"
+      }
+    ],
+    "ShortDesc": "Proud pixel pusher and modal lover. Built from scratch with Angular, Angular Material, HTML & CSS.",
+    "LongDesc": "This website! Built with Angular and Angular Material. I appreciate when there are few loading screens to distract from the experience of using a website, so I decided to use Angular as well as modals to minimize those occurrences. I'm also a big fan of using cards to represent information, as well as Material Design, so I decided to center my website around those two concepts. "
+  },
+  {
+    "ID": "4",
+    "ImgURLS": [
+      {
+        "name": "ShoeIn: HackGCT Grand Prize Winner",
+        "path": "img/shoein_picture.png"
+      },
+      {
+        "name": "ShoeIn: HackGCT Grand Prize Winner",
+        "path": "img/shoein_picture.png"
+      }
+    ],
+    "LongDesc": "ShoeIn is the beginning of a platform which enables nonprofit organization donors to see the impact of their donation, while simultaneously measuring the efficacy of the organizations which receive their donations and thereby holding them to a higher degree of accountability. In its current form, ShoeIn caters to shoe donation nonprofits, since we found that a large number of such organizations resell the donations they receive rather than giving them to those in need. Upon receiving a pair of a shoes through our platform, the organization must send a message to the donor describing how they are being used, ensuring that the donor can see the impact of their donation. The majority of the front-end web development was done collaboratively between myself and Tiffany. We worked on coding the front-end layout together, starting with a Bootstrap HTML5/CSS3 template.",
+    "ShortDesc": "ShoeIn is the beginning of a platform which enables nonprofit organization donors to see the impact of their donation first-hand.",
+    "Title": "ShoeIn: HackGCT Grand Prize Winner"
+  },
+  {
+    "ID": "5",
+    "Title": "Onigiri",
+    "ImgURLS": [
+        {
+          "name": "Onigiri",
+          "path": "img/onigiri_picture.png"
+        }
+    ],
+    "ShortDesc": "TO BE ANNOUNCED! An exciting collaboration with acclaimed designer Tiffany Jiang. Being built with Ionic Framework and Flask, backed by a MySQL database.",
+    "LongDesc": "I am the lead engineer on an upcoming mobile app being built in collaboration with TIffany Jiang. I am using Ionic Framework for the front-end and Flask to build the backend, along with a MySQL database. We started with a Firebase, but quickly realized it did not have the required functionality for our app. As we move forward, we will be conducting user research to better understand our market and potential users. MVP coming soon."
+  },
+  {
+    "ID": "6",
+    "Title": "Hack the Hits 2016",
+    "ImgURLS": [
+      {
+        "name": "Hack the Hits 2016",
+        "path": "img/hackthehits.png"
+      }
+    ],
+    "ShortDesc": "Over 24 hours, we will be attempting to create a new, expressive musical instrument. Check back to see what we come up with!",
+    "LongDesc": "On April 9th, Tiffany Jiang, Ritwik Gupta, and I will be participating in Red Bull's 2016 Hack the Hits hackathon. We will be competing against 6 other teams in San Francisco to build a musical instrument that's fun, expressive, and most importantly useful in a studio or live setting. This is a new experience for me, as I haven't done much work with hardware. As a musician myself, I'm very excited to to participate in a hackathon where I will have the opportunity to learn more about hardware hacking in the context of music."
+  }
+]
