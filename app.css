@@ -39,6 +39,7 @@ body{
   margin:auto;
   color:white !important;
   padding:26px 20px 40px 20px;
+  text-align:center;
 
 }
 #title{
@@ -91,11 +92,12 @@ body{
 
   justify-content: center;
 }
-  @media (max-width:600px){
-    #projects-view{
-      padding-bottom:35%;
+  @media (max-width:600px) {
+    #projects-view {
+      padding-bottom: 35%;
       justify-content: center;
     }
+  }
 .card-title{
   padding-top:15px !important;
   padding-bottom:5px !important;
