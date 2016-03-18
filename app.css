@@ -141,7 +141,7 @@ body{
   padding:5px;
   margin:10px;
   min-height:200px;
-  min-width:400px;
+  min-width:380px;
 }
 .skill-header{
   text-align:center;
@@ -160,6 +160,7 @@ body{
 }
 .about-me-icons{
   font-size:90px !important;
+  text-align:center;
   margin:10px auto 0 auto;
 }
 #front-end-icon{
