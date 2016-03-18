@@ -125,6 +125,10 @@ body{
     h2.nb-binding{
       font-size:13px !important;
     }
+    .modal-text{
+      padding:0 20px 15px 20px !important;
+      width:auto;
+    }
   }
 .modal-internal-img{
   max-width:600px;
