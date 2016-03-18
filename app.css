@@ -115,6 +115,14 @@ body{
 .modal-content{
   padding: 35px !important;
 }
+  @media (max-width:600px) {
+    .modal-content{
+      padding: 15px !important;
+    }
+    h1{
+      font-size:25px !important;
+    }
+  }
 .modal-internal-img{
   max-width:600px;
   width:100%;
