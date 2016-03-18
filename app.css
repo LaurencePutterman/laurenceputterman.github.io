@@ -109,8 +109,8 @@ body{
   padding-left: 6px;
 }
 .modal-text{
-  padding:0 20px 8px 20px !important;
-  width:44em;
+  padding:0 20px 15px 20px !important;
+  width:30em;
 }
 .modal-content{
   padding: 35px !important;
@@ -119,8 +119,11 @@ body{
     .modal-content{
       padding: 15px !important;
     }
-    h1{
-      font-size:25px !important;
+    h1.ng-binding {
+      font-size:23px !important;
+    }
+    h2.nb-binding{
+      font-size:13px !important;
     }
   }
 .modal-internal-img{
@@ -148,6 +151,9 @@ body{
 #about-me{
   padding:3em;
   background-color:white;
+}
+#about-me-text{
+  margin:auto;
 }
 .skills-interests{
   justify-content: center;
@@ -177,9 +183,6 @@ body{
 .space{
    margin:2em;
  }
-.space .more{
-  margin:6em;
-}
 .about-me-icons{
   font-size:90px !important;
   text-align:center;
@@ -189,10 +192,11 @@ body{
   color:#80A83F;
 }
 #back-end-icon{
-  color:#83C3EB;
+  color:#E12349;
 }
 #design-icon{
-  color:#E12349;
+
+  color:#83C3EB;
 }
 #tech-icon{
   color:#FFB74D;
@@ -202,4 +206,23 @@ body{
 }
 #neuro-icon{
   color:#BA68C8;
+}
+.social-icons-container{
+  padding:30px;
+  justify-content:center;
+}
+.social-icon{
+  font-size: 30px !important;
+  color:black;
+}
+.social-icon:hover{
+  font-size: 30px !important;
+  color:#464646;
+  transition: color .1s ease;
+  cursor: pointer;
+}
+
+a{
+  font-weight:bold;
+  text-decoration:none;
 }

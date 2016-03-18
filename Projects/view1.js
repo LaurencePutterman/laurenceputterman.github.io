@@ -9,9 +9,10 @@ angular.module('personal-site.Projects', ['ngRoute'])
   });
 }])
 
-.controller('ProjectsCtrl', ['Projects','$scope','$mdDialog',function(Projects,$scope,$mdDialog) {
+.controller('ProjectsCtrl', ['Projects','$scope','$mdDialog','$sce',function(Projects,$scope,$mdDialog, $sce) {
+    $scope.$sce = $sce;
     Projects.getProjects().then(function(result){
-    $scope.projects = result.data;
+        $scope.projects = result.data;
     });
 
     $scope.toggle = function(elementID){
@@ -37,7 +38,6 @@ function DialogCtrl($scope, $mdDialog, project) {
     $scope.project = project;
 
     $scope.lengthOfImg = function(){
-        console.log(window.innerWidth);
         if(window.innerWidth < 1078){
             return 0
         }

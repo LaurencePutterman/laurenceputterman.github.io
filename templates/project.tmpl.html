@@ -16,7 +16,8 @@
                 </div>
                 <div layout="column" class="modal-text">
                     <h1>{{project.Title}}</h1>
-                    <span class="modal-project-description">{{project.LongDesc}}</span>
+                    <span class="modal-project-description" ng-bind-html="project.LongDesc"></span>
+
                 </div>
             </md-content>
         </md-dialog-content>

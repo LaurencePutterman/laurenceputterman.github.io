@@ -9,7 +9,8 @@ angular.module('personal-site', [
   'personal-site.version',
   'personal-site.Contact',
     'ngMaterial',
-    'dmCarrousel'
+    'dmCarrousel',
+    'ngSanitize'
 ]).
 config(['$routeProvider', '$mdThemingProvider',function($routeProvider, $mdThemingProvider) {
   $routeProvider.otherwise({redirectTo: '/Work'});
