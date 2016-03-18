@@ -241,6 +241,12 @@ a{
 #in-header-icons{
   justify-content:flex-end;
 }
-#card-box-title{
-
+@media (max-width:600px) {
+  #in-header-icons{
+    justify-content:center;
+  }
+  #hello{
+    margin-bottom:10px;
+    text-align: center;
+  }
 }
