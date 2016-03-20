@@ -23,8 +23,21 @@ config(['$routeProvider', '$mdThemingProvider',function($routeProvider, $mdThemi
       .accentPalette('lighterBlue',{
         'default': '400' // use shade 200 for default, and keep all other shades the same
       });
-}]).
-controller('AppCtrl', ['$scope','$location',function($scope,$location) {
+}])
+.run(['$rootScope', '$location', '$window',
+    function($rootScope, $location, $window) {
+        $rootScope.$on('$routeChangeSuccess',
+            function(event) {
+                if (!$window.ga) {
+                    return;
+                }
+                $window.ga('send', 'pageview', {
+                    page: $location.path()
+                });
+            });
+    }
+]).
+controller('AppCtrl', ['$scope','$location','$rootScope',function($scope,$location,$rootScope) {
     $scope.selectedIndex = 1;
     switch($location.path()){
         case "/AboutMe":
